@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nairch</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: -1;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js config loaded');
+    });
+  </script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <!-- Hero Section Start  -->
+    <section id="home" class="pt-36 min-h-screen">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2 xl:w-1/2 xl:translate-x-20">
+            <h1 class="text-2xl font-semibold md:text-3xl lg:text-4xl xl:text-5xl 2xl:pt-36">
+              Hi, <br> I'm
+              <span class="text-secondary">Pracoyo "Nair" Setiyo</span>
+            </h1>
+            <h2 class="text-base font-semibold text-third mb-4 lg:text-3xl lg:pt-4 lg:mb-7"><span id="typed""></span>
+            </h2>
+            <p class="text-base text-neutral-500 mb-7">
+              Saya adalah seorang Mahasiswa IT <br class="md:hidden"> yang ingin menjadi <br class="hidden md:inline"/>
+              <span class="font-semibold text-secondary"
+                >Web Developer Handal</span
+              >
+              namun enggan mengoding.
+            </p>
+            <a
+              href="#"
+              class="bg-secondary rounded-full px-8 py-3"
+              >Hubungi Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2 xl:w-1/2 2xl:w-1/2">
+            <div class="absolute mt-10">
+              <img
+                src="../dist/img/nairch.jpg"
+                alt="Nairch"
+                class="xl:relative 2xl:relative rounded-full max-w-full mx-auto scale-75 xl:ml-34 xl:-translate-x-10 xl:scale-45 xl:-translate-y-120 2xl:-translate-y-180"
+              />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        var typed = new Typed('#typed', {
+          strings: ['A Web Developer', 'A Gamer', 'An Informatics Student'],
+          typeSpeed: 60,
+          backSpeed: 40,
+          loop: true
+        });
+      </script>
+    </section>
+    <!-- Hero Section End -->
+  </body>
+</html>

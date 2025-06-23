@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme {
+  --color-matcha-soft: rgb(221, 246, 210);
+  --color-matcha-bold: rgb(176, 219, 156);
+  --color-primary: rgb(251, 245, 229);
+  --color-secondary: rgb(200, 144, 167);
+  --color-third: rgb(163, 92, 122);
+}
